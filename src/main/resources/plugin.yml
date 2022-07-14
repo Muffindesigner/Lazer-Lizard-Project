@@ -2,3 +2,6 @@ name: Lazer-Lizard-Plugin
 version: '${project.version}'
 main: de.mayhan.lazer.Main
 api-version: 1.19
+commands:
+  afk:
+
