@@ -11,8 +11,8 @@ public class AFKCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player){
             Player player = (Player) sender;
-            player.setPlayerListName(ChatColor.LIGHT_PURPLE + player.getName() + "[AFK]");
-            player.setDisplayName(ChatColor.LIGHT_PURPLE + player.getName() + "[AFK]");
+            player.setPlayerListName(ChatColor.LIGHT_PURPLE + player.getName() + " [AFK]");
+            player.setDisplayName(ChatColor.LIGHT_PURPLE + player.getName() + " [AFK]");
         } else {
             sender.sendMessage(ChatColor.RED + "You must be a Player to use this Command!");
         }
